@@ -1,0 +1,63 @@
+<html>
+<head>
+<link href="../Content/bootstrap.css" rel="stylesheet">
+	<script src="../Scripts/jquery-1.9.1.js"></script>
+	<script src="../Scripts/bootstrap.js"></script>
+
+</head>
+<body>
+<div class="row">
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  					<div class="modal-dialog" role="document">
+    					<div class="modal-content">
+      						<div class="modal-header">
+        							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        							<h4 class="modal-title" id="myModalLabel"><font color="red">Sign_Up</font><h4>
+      						</div>
+      		<div class="modal-body">
+      			<center>
+			        			<form action="login1.php" method="post">
+								<table class="table">
+										
+											<tr>
+														<td><input class="form-control" type="email" name="txteid" placeholder="Enter emil_id" required /></td> 
+											</tr>
+											<tr>
+														<td><input type="text" name="txtuname" placeholder="Enter User name" class="form-control" required /></td> 
+											</tr>
+											<tr>
+														<td><input type="password" name="txtpwd" placeholder="Enter Password" class="form-control" required /></td> 
+											</tr>
+											<tr>
+														<td><input type="password" name="txtrepwd" placeholder="Re enter Password" class="form-control" required /></td> 
+											</tr>
+											<tr>
+														<td><input type="text" name="txtmno" placeholder="Enter Mobile no" class="form-control" required /></td> 
+											</tr>
+											<tr>
+														<td><select name="txtcity">
+																	<option value="Abad">Abad</option>
+																	<option value="Baroda">Baroda</option>
+																	<option value="Surat">Surat</option>
+														</select></td>
+											</tr>
+											<tr>
+														<td>
+														<input type="radio" checked name="txtgender" value="male">Male
+															<input type="radio" name="txtgender" value="female">Female
+											</tr>
+											<tr>
+														<td><input type="submit" name="btnnewinsert" value="Save" />
+														
+											</tr>
+									</table>
+							</form></center>
+						</div>
+    				</div>
+  				</div>
+			</div>
+
+
+</div>
+</body>
+</html>
